@@ -1,0 +1,22 @@
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+.main_nav {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.main_nav ul {
+  list-style-type: none;
+}
+.main_nav li {
+  display: inline;
+  float: left;
+}
+.main_nav li a {
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(27, 27, 27);
+}

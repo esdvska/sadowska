@@ -1,0 +1,8 @@
+.footer {
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: right;
+}
