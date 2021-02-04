@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 .container {
+  font-family: "Catamaran", sans-serif;
   text-align: center;
-  margin: 0 50px;
-
+  margin: 0px 70px;
+  /* width: 90vw; */
   height: 95vh;
 }
