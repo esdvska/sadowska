@@ -1,0 +1,8 @@
+.carousel-img {
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+}
+.carousel-item {
+  transition: opacity 2s ease-in-out !important;
+}
