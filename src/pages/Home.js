@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import car1 from "../images/carousel/car1.jpg";
 import car2 from "../images/carousel/car2.jpg";
@@ -7,31 +7,28 @@ import car3 from "../images/carousel/car3.jpg";
 import "../styles/Home.css";
 const Home = () => {
   const slideImages = [car1, car2, car3];
+
   const time = 5000;
-  let active = 0;
-  let imageSrc = `car ${active}`;
+  const [activeImg, setActiveImg] = useState(0);
+  let imageSrc = slideImages[activeImg];
+  const len = slideImages.length - 1;
 
   useEffect(() => {
     const interval = setInterval(() => {
-      changeSlide();
+      setActiveImg(activeImg === len ? 0 : activeImg + 1);
+      console.log(imageSrc);
     }, time);
+
     return () => clearInterval(interval);
-  });
-  const changeSlide = () => {
-    active++;
-    if (active === slideImages.length) {
-      active = 0;
-    }
-    imageSrc = slideImages[active];
-    console.log(imageSrc);
-  };
+  }, [activeImg]);
+
   return (
     <div className="carousel-slide">
       <div className="carousel-inner">
-        <div className="carousel-item-active">
+        <div className="carousel-image">
           <img
-            className="carousel-image"
             src={imageSrc}
+            className="carousel-image"
             alt="fotografia_slubna"
           />
         </div>

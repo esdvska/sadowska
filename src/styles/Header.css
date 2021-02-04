@@ -12,7 +12,7 @@
 .main_nav li {
   display: inline-block;
   text-transform: uppercase;
-  margin: 0 30px;
+  margin: 5px 30px;
   font-size: 10px;
 }
 .main_nav li a {
