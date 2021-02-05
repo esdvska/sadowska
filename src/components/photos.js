@@ -13,9 +13,9 @@ import zdj12 from "../images/portfolio/12.jpg";
 
 export const photos = [
   {
-    src: zdj12,
-    width: 2,
-    height: 3,
+    src: zdj1,
+    width: 3,
+    height: 2,
   },
   {
     src: zdj1,
@@ -59,6 +59,81 @@ export const photos = [
   },
   {
     src: zdj9,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj5,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj6,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj7,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj8,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj9,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj5,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj6,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj7,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj8,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj9,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj5,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj6,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj7,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj11,
+    width: 3,
+    height: 2,
+  },
+  {
+    src: zdj10,
     width: 3,
     height: 2,
   },

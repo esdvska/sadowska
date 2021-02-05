@@ -19,13 +19,14 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/omnie">O mnie</NavLink>
+            </li>
+
+            <li>
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li>
               <NavLink to="/oferta">Oferta</NavLink>
-            </li>
-            <li>
-              <NavLink to="/omnie">O mnie</NavLink>
             </li>
             <li>
               <NavLink to="/kontakt">Kontakt</NavLink>

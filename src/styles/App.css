@@ -17,3 +17,32 @@ header {
   font-family: "Catamaran", "Helvetica", "Arial" sans-serif;
   text-align: center;
 }
+
+.scrollTop {
+  position: fixed;
+  font-size: 35px;
+  color: rgb(241, 175, 37);
+  right: 23px;
+  bottom: 0px;
+  align-items: right;
+
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.7;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

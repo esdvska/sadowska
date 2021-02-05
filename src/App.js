@@ -1,6 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
+import ScrollArrow from "./components/ScrollArrow";
 
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
@@ -15,6 +16,7 @@ const App = () => {
         <header>{<Header />}</header>
         <main>{<Main />}</main>
         <footer>{<Footer />}</footer>
+        <ScrollArrow />
       </div>
     </Router>
   );
