@@ -3,3 +3,6 @@
   line-height: 11px;
   text-align: right;
 }
+.footer p {
+  margin-bottom: 0px;
+}

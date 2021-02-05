@@ -8,6 +8,8 @@
 
 .main_nav ul {
   list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 3px;
 }
 .main_nav li {
   display: inline-block;
@@ -19,4 +21,11 @@
   font-size: 10px;
   text-decoration: none;
   color: rgb(27, 27, 27);
+}
+
+.main_nav li a:hover {
+  color: rgb(241, 175, 37);
+}
+.main_nav li a.active {
+  color: rgb(241, 175, 37);
 }

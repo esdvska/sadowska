@@ -9,13 +9,15 @@ import Portfolio from "../pages/Portfolio";
 
 const Main = () => {
   return (
-    <Switch>
-      <Route path="/" exact component={Home}></Route>
-      <Route path="/portfolio" component={Portfolio}></Route>
-      <Route path="/oferta" component={Offer}></Route>
-      <Route path="/omnie" component={About}></Route>
-      <Route path="/kontakt" component={Contact}></Route>
-    </Switch>
+    <div>
+      <Switch>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/portfolio" component={Portfolio}></Route>
+        <Route path="/oferta" component={Offer}></Route>
+        <Route path="/omnie" component={About}></Route>
+        <Route path="/kontakt" component={Contact}></Route>
+      </Switch>
+    </div>
   );
 };
 
