@@ -25,7 +25,7 @@ const About = () => {
           Jednak to nie pasja do fotografii sprawiła, że zajęłam się fotografią
           ślubną zawodowo, sprawiła to pasja do ludzi. Uwielbiam Wasze historie
           - te małe i duże. Uwielbiam patrzeć na to jak się kochacie, dowiadywać
-          się co sprawia, ze się uśmiechacie, a co, ze się wzruszacie.{" "}
+          się co sprawia, że się uśmiechacie, a co, że się wzruszacie.{" "}
         </p>
         <h2>Zapraszam przed obiektyw.</h2>
         <h3>Pokażcie mi swój wyjątkowy świat.</h3>

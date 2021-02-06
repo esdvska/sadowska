@@ -1,7 +1,13 @@
 .footer {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+  bottom: 0px;
+  right: 5px;
   font-size: 9px;
   line-height: 11px;
   text-align: right;
+  padding: 5px 0;
 }
 .footer p {
   margin-bottom: 0px;
