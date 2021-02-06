@@ -1,0 +1,17 @@
+.offer {
+  margin: 5px 150px;
+}
+.offer p {
+  font-size: 10px;
+  margin: 0;
+}
+.photos_offer {
+  margin: 20px 50px;
+}
+.photos_offer div {
+  width: 33.3%;
+  float: left;
+}
+.photos_offer img {
+  width: 23vw;
+}
