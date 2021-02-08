@@ -11,14 +11,14 @@ import "./styles/App.css";
 
 const App = () => {
   return (
-    <Router>
-      <div className="container">
+    <div className="app">
+      <Router>
         <header>{<Header />}</header>
         <main>{<Main />}</main>
         <footer>{<Footer />}</footer>
         <ScrollArrow />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
 

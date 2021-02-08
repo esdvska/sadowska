@@ -1,15 +1,18 @@
 .offer {
-  margin: 5px 150px;
+  margin: 15px 250px;
 }
 .offer p {
-  font-size: 10px;
+  text-indent: 120px;
+  font-size: 15px;
   margin: 0;
 }
 .photos_offer {
-  margin: 20px 50px;
+  margin: 60px auto;
+  max-width: 1600px;
 }
 .photos_offer div {
   width: 33.3%;
+
   float: left;
 }
 .photos_offer img {

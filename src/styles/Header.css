@@ -1,6 +1,6 @@
 .logo {
-  width: 90px;
-  margin-top: 10px;
+  width: 150px;
+  margin-top: 15px;
 }
 .main_nav {
   text-align: center;
@@ -8,17 +8,16 @@
 
 .main_nav ul {
   list-style-type: none;
-  margin-top: 5px;
-  margin-bottom: 3px;
+  margin-top: 12px;
+  margin-bottom: 13px;
 }
 .main_nav li {
   display: inline-block;
   text-transform: uppercase;
-  margin: 0px 30px;
-  font-size: 10px;
+  margin: 0px 40px;
 }
 .main_nav li a {
-  font-size: 10px;
+  font-size: 13px;
   text-decoration: none;
   color: rgb(27, 27, 27);
 }

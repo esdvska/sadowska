@@ -6,13 +6,11 @@
 header {
   position: relative;
 }
-.container {
+.app {
   display: flex;
-  width: 90vw;
-
-  margin: 0 auto;
+  max-width: 1920px;
   flex-direction: column;
-  height: 100vh;
+  margin: 0 auto;
 
   font-family: "Catamaran", "Helvetica", "Arial" sans-serif;
   font-weight: 100;
@@ -46,4 +44,7 @@ header {
   100% {
     opacity: 0.5;
   }
+}
+.react-images__view-image {
+  max-height: 100vh !important;
 }
