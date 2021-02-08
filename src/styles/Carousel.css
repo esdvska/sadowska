@@ -1,5 +1,13 @@
-.carousel-wrapper {
-  width: 100%;
+.d-block {
+  height: 80vh;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .d-block {
+    height: 100vh;
+    width: auto;
+  }
 }
 .carousel-item {
   transition: opacity 2s ease-in-out !important;
