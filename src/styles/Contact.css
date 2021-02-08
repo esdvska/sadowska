@@ -1,0 +1,59 @@
+.info_contact {
+  float: left;
+  padding: 30px 250px 30px 120px;
+  border-left: 1px solid rgb(75, 12, 15);
+  margin: 110px auto;
+  width: 50%;
+  height: 40%;
+}
+.contact aside {
+  float: left;
+  width: 50%;
+}
+.contact aside img {
+  width: 50%;
+  margin: 125px auto 110px 200px;
+}
+
+.contact h1 {
+  font-weight: 300;
+  font-size: 30px;
+  color: rgb(75, 12, 15);
+  margin-bottom: 25px;
+}
+.contact h2 {
+  font-weight: 300;
+  font-size: 25px;
+  color: rgb(75, 12, 15);
+}
+
+.contact h3 {
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(75, 12, 15);
+}
+.adresses {
+  margin-top: 80px;
+
+  text-align: left;
+}
+.adresses p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.contact_icon {
+  font-size: 30px;
+  padding-bottom: 3.5px;
+  padding-right: 10px;
+}
+.firm {
+  margin-top: 35px;
+  font-size: 17px;
+  color: rgb(75, 12, 15);
+}
+.firm p {
+  margin-bottom: 10px;
+}
+.firm p:first-child {
+  font-weight: 500;
+}

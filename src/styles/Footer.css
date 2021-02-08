@@ -1,9 +1,9 @@
 .footer {
-  position: fixed;
-  width: 100vw;
+  /* position: fixed;
+  /* width: 100vw; */
   background-color: #fff;
   bottom: 0px;
-  right: 0px;
+  /* right: 0px; */
   font-size: 14px;
   line-height: 18spx;
   text-align: right;
