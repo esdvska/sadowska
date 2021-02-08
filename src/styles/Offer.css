@@ -1,5 +1,5 @@
 .offer {
-  margin: 15px 250px;
+  margin: 10px 250px;
 }
 .offer p {
   text-indent: 120px;
@@ -7,14 +7,39 @@
   margin: 0;
 }
 .photos_offer {
-  margin: 60px auto;
-  max-width: 1600px;
+  margin: 40px auto;
+  max-width: 1700px;
 }
-.photos_offer div {
+.contain_overlay {
   width: 33.3%;
-
   float: left;
 }
+
+.overlay {
+  font-family: p22-pouty-pro, sans-serif;
+  position: relative;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  margin: 0 auto;
+  background-color: #15100c;
+  width: 500px;
+  height: 617px;
+}
+.overlay h1 {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  color: #eaebe3;
+  font-size: 50px;
+}
+
 .photos_offer img {
-  width: 23vw;
+  object-fit: cover;
+  width: 500px;
+  opacity: 0.6;
 }

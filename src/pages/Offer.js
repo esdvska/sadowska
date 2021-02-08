@@ -32,16 +32,35 @@ const Offer = () => {
         </p>
       </div>
       <div className="photos_offer">
-        <div className="overlay">
-          <img src={img2} alt="oferta śłubna"></img>
+        <div className="contain_overlay">
+          <div className="overlay">
+            <img src={img2} alt="oferta śłubna"></img>
+            <h1>
+              Pakiet
+              <br />
+              Standard
+            </h1>
+          </div>
         </div>
-        <div className="overlay">
-          {" "}
-          <img src={img1} alt="oferta śłubna"></img>
+        <div className="contain_overlay">
+          <div className="overlay">
+            <img src={img1} alt="oferta śłubna"></img>
+            <h1>
+              Pakiet
+              <br />
+              Premium
+            </h1>
+          </div>
         </div>
-        <div className="overlay">
-          {" "}
-          <img src={img3} alt="oferta śłubna"></img>
+        <div className="contain_overlay">
+          <div className="overlay">
+            <img src={img3} alt="oferta śłubna"></img>
+            <h1>
+              Pakiet
+              <br />
+              Basic
+            </h1>
+          </div>
         </div>
       </div>
     </div>
