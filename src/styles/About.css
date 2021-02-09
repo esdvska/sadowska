@@ -1,22 +1,46 @@
+/* WRAPPER */
 .about {
   vertical-align: center;
-  margin: 0 auto;
+  margin: 80px auto;
+  padding-bottom: 250px;
+}
+@media (max-width: 1280px) {
+  .about {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .about {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .about {
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
 }
 
+/* SEKCJA INFO - NAPISY */
 .info {
   float: left;
-  padding: 20px 120px 30px 250px;
+  padding: 55px 8vw 60px 10vw;
   border-right: 1px solid rgb(75, 12, 15);
-  margin: 110px auto;
+  margin: auto;
   width: 50%;
 }
-.about aside {
-  float: left;
-  width: 50%;
+
+@media (max-width: 1668px) {
+  .info {
+    padding: 5px 6vw 30px 8vw;
+  }
 }
-.about aside img {
-  width: 46%;
-  margin: 110px 200px 110px auto;
+@media (max-width: 800px) {
+  .info {
+    float: none;
+    border: none;
+    width: 80%;
+  }
 }
 
 .about h1 {
@@ -24,14 +48,128 @@
   font-size: 30px;
   color: rgb(75, 12, 15);
 }
+@media (max-width: 1024px) {
+  .about h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  .about h1 {
+    font-size: 20px;
+  }
+}
 .about h2 {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(75, 12, 15);
+  font-family: p22-pouty-pro, sans-serif;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+/* @media (max-width: 1280px) {
+  .about h2 {
+    font-size: 17px;
+  }
+} */
+
+@media (max-width: 1024px) {
+  .about h2 {
+    font-size: 15px;
+  }
 }
 
 .about h3 {
   font-weight: 300;
-  font-size: 20px;
-  color: rgb(75, 12, 15);
+  font-size: 15px;
+
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@media (max-width: 1280px) {
+  .about h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .about h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1280px) {
+  .about p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about p {
+    font-size: 13px;
+  }
+}
+
+/* SEKCJA IMG */
+.about aside {
+  float: left;
+
+  width: 50%;
+  height: 40%;
+}
+
+.about aside img {
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  margin-right: 15%;
+  vertical-align: center;
+}
+
+@media (max-width: 1668px) {
+  .about aside img {
+    margin-bottom: 180px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1368px) {
+  .about aside img {
+    width: 60%;
+    margin-bottom: 150px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1280px) {
+  .about aside img {
+    margin-bottom: 100px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .about aside img {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 800px) {
+  .about aside img {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+
+/* sekcja added */
+.added_about {
+  margin-top: 100px;
+  float: left;
+}
+.added_about h2 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-family: p22-pouty-pro, sans-serif;
+}
+.added_about h3 {
+  margin-top: 0;
+  font-size: 13px;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }

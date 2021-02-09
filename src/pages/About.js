@@ -1,8 +1,12 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
+
 import "../styles/About.css";
 
 import profile from "../images/profile2.jpg";
 const About = () => {
+  const isSmall = useMediaQuery({ query: "(max-width:800px" });
+
   return (
     <div className="about">
       <div className="info">
@@ -31,12 +35,23 @@ const About = () => {
           to jak się kochacie, dowiadywać się co sprawia, że się uśmiechacie, a
           co, że się wzruszacie.{" "}
         </p>
-        <h2>Zapraszam przed obiektyw.</h2>
-        <h3>Pokażcie mi swój wyjątkowy świat.</h3>
+        {isSmall ? null : (
+          <section>
+            {" "}
+            <h2>Zapraszam przed obiektyw.</h2>
+            <h3>Pokażcie mi swój wyjątkowy świat.</h3>
+          </section>
+        )}
       </div>
       <aside>
         <img src={profile} alt="Ewelina Sadowska" />
       </aside>
+      {isSmall ? (
+        <div className="added_about">
+          <h2>Zapraszam przed obiektyw.</h2>
+          <h3>Pokażcie mi swój wyjątkowy świat.</h3>
+        </div>
+      ) : null}
     </div>
   );
 };
