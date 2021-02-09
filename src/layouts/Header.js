@@ -1,39 +1,25 @@
 import React from "react";
 
-import logo from "../images/LOGO.png";
+import { useMediaQuery } from "react-responsive";
 
-import { NavLink } from "react-router-dom";
+import NavDesktop from "../components/NavDesktop";
+import NavButton from "../components/NavButton";
+
+import logo from "../images/LOGO.png";
 
 import "../styles/Header.css";
 
 const Header = () => {
+  const isMobile = useMediaQuery({ query: "(max-width:640px" });
+  const navigation = isMobile ? (
+    <NavButton className="mobile" />
+  ) : (
+    <NavDesktop />
+  );
   return (
-    <div>
+    <div className="header">
       <img src={logo} alt="logo" className="logo" />
-      <div className="main_nav">
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/" exact>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/omnie">O mnie</NavLink>
-            </li>
-
-            <li>
-              <NavLink to="/portfolio">Portfolio</NavLink>
-            </li>
-            <li>
-              <NavLink to="/oferta">Oferta</NavLink>
-            </li>
-            <li>
-              <NavLink to="/kontakt">Kontakt</NavLink>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      {navigation}
     </div>
   );
 };

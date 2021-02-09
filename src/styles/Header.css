@@ -1,6 +1,21 @@
+@media (max-width: 640px) {
+  .header {
+    text-align: left;
+    margin-left: 14px;
+  }
+}
+
 .logo {
   width: 150px;
   margin-top: 15px;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    width: 80px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 }
 .main_nav {
   text-align: center;
@@ -26,5 +41,18 @@
   color: rgb(241, 175, 37);
 }
 .main_nav li a.active {
+  color: rgb(241, 175, 37);
+}
+
+/* MOBILE */
+.mobile {
+  line-height: 1.4;
+  position: fixed;
+  font-size: 1.8rem;
+  top: 0px;
+  right: 28px;
+  text-align: right;
+  width: 100vw;
+  z-index: 10;
   color: rgb(241, 175, 37);
 }
