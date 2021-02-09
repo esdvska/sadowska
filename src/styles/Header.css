@@ -46,10 +46,10 @@
 
 /* MOBILE */
 .mobile {
-  line-height: 1.4;
+  line-height: 1.2;
   position: fixed;
   font-size: 1.8rem;
-  top: 0px;
+  top: 5px;
   right: 28px;
   text-align: right;
   width: 100vw;

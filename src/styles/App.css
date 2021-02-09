@@ -22,7 +22,7 @@ header {
   font-size: 35px;
   color: rgb(241, 175, 37);
   right: 23px;
-  bottom: 0px;
+  bottom: -10px;
   align-items: right;
 
   justify-content: center;

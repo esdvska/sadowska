@@ -42,6 +42,11 @@
     width: 80%;
   }
 }
+@media (max-width: 414px) {
+  .info {
+    width: 90%;
+  }
+}
 
 .about h1 {
   font-weight: 300;
@@ -58,13 +63,18 @@
     font-size: 20px;
   }
 }
+@media (max-width: 414px) {
+  .about h1 {
+    font-size: 16px;
+  }
+}
 .about h2 {
   font-weight: 300;
   font-size: 30px;
   color: rgb(75, 12, 15);
   font-family: p22-pouty-pro, sans-serif;
   margin-bottom: 5px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 /* @media (max-width: 1280px) {
   .about h2 {
@@ -74,10 +84,19 @@
 
 @media (max-width: 1024px) {
   .about h2 {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
-
+@media (max-width: 800px) and(orientation: landscape ) {
+  .about h2 {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 414px) {
+  .about h2 {
+    font-size: 13px;
+  }
+}
 .about h3 {
   font-weight: 300;
   font-size: 15px;
@@ -105,6 +124,11 @@
 @media (max-width: 1024px) {
   .about p {
     font-size: 13px;
+  }
+}
+@media (max-width: 414px) {
+  .about p {
+    font-size: 11px;
   }
 }
 
@@ -146,6 +170,7 @@
 @media (max-width: 1024px) {
   .about aside img {
     margin-bottom: 120px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 800px) {
@@ -155,16 +180,53 @@
     margin-right: 10px;
   }
 }
-
+@media (max-width: 700px) {
+  .about aside img {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 414px) {
+  .about aside img {
+    width: 80%;
+    margin-left: 20px;
+  }
+}
 /* sekcja added */
 .added_about {
-  margin-top: 100px;
+  width: 30vw;
+  margin-top: 80px;
   float: left;
+}
+
+@media (max-width: 700px) {
+  .added_about {
+    width: 40vw;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .added_about {
+    width: 40vw;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width: 414px) {
+  .added_about {
+    margin-left: 15px;
+  }
 }
 .added_about h2 {
   font-size: 25px;
   margin-bottom: 5px;
   font-family: p22-pouty-pro, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .added_about h2 {
+    font-size: 18px;
+  }
 }
 .added_about h3 {
   margin-top: 0;
@@ -172,4 +234,9 @@
   color: grey;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+}
+@media (max-width: 414px) {
+  .added_about h3 {
+    font-size: 10px;
+  }
 }

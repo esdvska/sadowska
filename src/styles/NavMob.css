@@ -10,18 +10,28 @@
   margin-bottom: 13px;
 }
 .nav_mob li {
+  display: inline-block;
   width: 100%;
   height: 6vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(20, 20, 20, 0.9);
   text-align: left;
   padding-left: 18px;
-  display: inline-block;
+
   text-transform: uppercase;
   margin: 0px 28px;
   border-top: 0.3px solid rgb(234, 235, 227, 0.5);
+  /* display: table-cell;
+  vertical-align: middle; */
 }
 .nav_mob li a {
   font-size: 13px;
   text-decoration: none;
   color: rgb(234, 235, 227);
+}
+.nav_mob li a:hover {
+  color: rgb(241, 175, 37);
+}
+
+.nav_mob li a.active {
+  color: rgb(241, 175, 37);
 }
