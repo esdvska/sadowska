@@ -1,20 +1,20 @@
-@media (max-width: 640px) {
+/* @media (max-width: 650px) {
   .header {
     text-align: left;
   }
-}
+} */
 
 .logo {
-  width: 150px;
-  margin-top: 15px;
+  width: 120px;
+  margin-top: 25px;
 }
-@media (max-width: 640px) {
+/* @media (max-width: 650px) {
   .header .logo {
     margin-left: 14px;
   }
-}
+} */
 
-@media (max-width: 640px) {
+@media (max-width: 740px) {
   .logo {
     width: 80px;
     margin-top: 8px;

@@ -19,13 +19,15 @@ const Contact = () => {
       <div className="info_contact">
         <h1>POZNAJMY SIĘ</h1>
         <p>
-          Jeśli macie jakieś pytania/sugestie śmiało piszcie/dzwońcie,
-          ewentualnie chętnie udzielę Wam wszelkich informacji na spotkaniu przy
-          kawie. <strong>Do usłyszenia!</strong>
+          Jeśli macie jakieś pytania/sugestie śmiało piszcie/dzwońcie, chętnie
+          umówię się z Wami na spotkanie i udzielę wszystkich informacji na
+          spotkaniu przy kawie. <br></br>
+          <strong>Do usłyszenia!</strong>
         </p>
         <div className="firm">
-          <p>ES FOTOGRAFIE Ewelina Sadowska</p>{" "}
-          <p>Kaczorowskiego 7/313 15-375 Białystok</p>
+          <p>ES FOTOGRAFIE Ewelina Sadowska</p>
+          <p>Kaczorowskiego 7/313</p>
+          <p>15-375 Białystok</p>
           <p>NIP 5461374623</p>
         </div>
         <div className="adresses">
