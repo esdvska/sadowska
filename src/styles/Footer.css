@@ -11,6 +11,13 @@
   text-align: left;
   font-size: 20px;
 }
+.icons_footer a {
+  color: rgb(75, 12, 15);
+}
+.icons_footer a:hover {
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+}
 @media (max-width: 1300px) {
   .icons_footer {
     padding-left: 50px;

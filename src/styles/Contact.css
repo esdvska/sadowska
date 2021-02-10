@@ -146,7 +146,13 @@
     font-size: 14px;
   }
 }
-
+.adresses a {
+  color: rgb(75, 12, 15);
+}
+.adresses a:hover {
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+}
 .contact_icon {
   font-size: 30px;
   padding-bottom: 3.5px;

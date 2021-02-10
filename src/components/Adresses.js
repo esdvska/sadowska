@@ -17,12 +17,17 @@ const Adresses = () => {
         sadowskafotografie@gmail.com
       </p>
       <p>
-        <TiSocialFacebook className="contact_icon" />
-        fb.me/sadowskafotografie
+        <a href="https://www.facebook.com/sadowskafotografie" target="_blank">
+          <TiSocialFacebook className="contact_icon" />
+          fb.me/sadowskafotografie{" "}
+        </a>
       </p>{" "}
       <p>
-        <TiSocialInstagram className="contact_icon" />
-        instagram.com/sadowskafotografie/
+        <a href="https://www.instagram.com/sadowskafotografie/" target="_blank">
+          {" "}
+          <TiSocialInstagram className="contact_icon" />
+          instagram.com/sadowskafotografie/
+        </a>
       </p>
     </div>
   );
