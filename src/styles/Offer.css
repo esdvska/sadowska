@@ -1,14 +1,41 @@
 .offer {
   margin: 15px 250px;
 }
+@media (max-width: 1280px) {
+  .offer {
+    margin: 15px 150px;
+    text-indent: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .offer {
+    margin: 15px 100px;
+    text-indent: 20px;
+  }
+}
+@media (max-width: 770px) {
+  .offer {
+    margin: 15px 60px;
+  }
+}
 .offer p {
-  text-indent: 120px;
+  /* text-indent: 120px; */
   font-size: 15px;
   margin: 0;
+}
+@media (max-width: 850px) {
+  .offer p {
+    font-size: 13px;
+  }
 }
 .photos_offer {
   margin: 40px auto;
   max-width: 1700px;
+}
+@media (max-width: 1024px) {
+  .photos_offer {
+    max-width: 800px;
+  }
 }
 .contain_overlay {
   width: 33.3%;
@@ -18,28 +45,26 @@
 .overlay {
   font-family: p22-pouty-pro, sans-serif;
   position: relative;
-
-  font-weight: 400;
-
-  font-style: normal;
-
+  width: 26vw;
+  height: 32vw;
   margin: 0 auto;
   background-color: #15100c;
-  width: 500px;
-  height: 617px;
 }
 .overlay h1 {
   position: absolute;
-  top: 350px;
+  top: 19vw;
   left: 0;
   width: 100%;
   margin: 0 auto;
   color: #eaebe3;
-  font-size: 50px;
+  font-size: 3vw;
+  font-weight: 400;
+
+  font-style: normal;
 }
 
 .photos_offer img {
   object-fit: cover;
-  width: 500px;
+  width: 26vw;
   opacity: 0.6;
 }

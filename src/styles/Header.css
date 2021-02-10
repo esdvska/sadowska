@@ -1,13 +1,17 @@
 @media (max-width: 640px) {
   .header {
     text-align: left;
-    margin-left: 14px;
   }
 }
 
 .logo {
   width: 150px;
   margin-top: 15px;
+}
+@media (max-width: 640px) {
+  .header .logo {
+    margin-left: 14px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -47,12 +51,11 @@
 /* MOBILE */
 .mobile {
   line-height: 1.2;
-  position: fixed;
-  font-size: 1.8rem;
-  top: 5px;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 8px;
   right: 28px;
   text-align: right;
   width: 100vw;
   z-index: 10;
-  color: rgb(241, 175, 37);
 }

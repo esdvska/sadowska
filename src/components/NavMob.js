@@ -7,27 +7,23 @@ import "../styles/NavMob.css";
 const NavMob = () => {
   return (
     <div className="nav_mob">
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/" exact>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/omnie">O mnie</NavLink>
-          </li>
-          <li>
-            <NavLink to="/portfolio">Portfolio</NavLink>
-          </li>
-          <li>
-            <NavLink to="/oferta">Oferta</NavLink>
-          </li>
-          <li>
-            <NavLink to="/kontakt">Kontakt</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <div>
+        <NavLink to="/" exact>
+          Home
+        </NavLink>
+      </div>
+      <div>
+        <NavLink to="/omnie">O mnie</NavLink>
+      </div>
+      <div>
+        <NavLink to="/portfolio">Portfolio</NavLink>
+      </div>
+      <div>
+        <NavLink to="/oferta">Oferta</NavLink>
+      </div>
+      <div>
+        <NavLink to="/kontakt">Kontakt</NavLink>
+      </div>
     </div>
   );
 };

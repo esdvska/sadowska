@@ -1,18 +1,11 @@
 .nav_mob {
   width: 100vw;
-}
 
-.nav_mob ul {
   margin-left: 0;
-  list-style-type: none;
 
-  display: table-cell;
   vertical-align: middle;
 }
-.nav_mob li {
-  display: inline-block;
-  width: 100vw;
-
+.nav_mob div {
   background-color: rgb(20, 20, 20, 0.9);
   text-align: left;
   padding: 5px 18px 10px 18px;
@@ -21,15 +14,15 @@
 
   border-top: 0.3px solid rgb(234, 235, 227, 0.5);
 }
-.nav_mob li a {
+.nav_mob div a {
   font-size: 13px;
   text-decoration: none;
   color: rgb(234, 235, 227);
 }
-.nav_mob li a:hover {
+.nav_mob div a:hover {
   color: rgb(241, 175, 37);
 }
 
-.nav_mob li a.active {
+.nav_mob div a.active {
   color: rgb(241, 175, 37);
 }
