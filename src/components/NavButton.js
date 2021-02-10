@@ -12,12 +12,16 @@ const NavButton = () => {
 
   const navButton = navVisible ? (
     <>
-      <VscClose onClick={handleMobileNavigation} />
+      <div className="mobile">
+        <VscClose onClick={handleMobileNavigation} />
+      </div>
       <NavMob />
     </>
   ) : (
-    <VscMenu onClick={handleMobileNavigation} />
+    <div className="mobile">
+      <VscMenu onClick={handleMobileNavigation} />
+    </div>
   );
-  return <div className="mobile">{navButton}</div>;
+  return <div>{navButton}</div>;
 };
 export default NavButton;

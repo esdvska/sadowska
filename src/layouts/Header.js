@@ -11,11 +11,7 @@ import "../styles/Header.css";
 
 const Header = () => {
   const isMobile = useMediaQuery({ query: "(max-width:640px" });
-  const navigation = isMobile ? (
-    <NavButton className="mobile" />
-  ) : (
-    <NavDesktop />
-  );
+  const navigation = isMobile ? <NavButton /> : <NavDesktop />;
   return (
     <div className="header">
       <img src={logo} alt="logo" className="logo" />
