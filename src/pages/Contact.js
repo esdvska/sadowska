@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { TiSocialFacebook } from "react-icons/ti";
-import { TiDevicePhone } from "react-icons/ti";
-import { TiMail } from "react-icons/ti";
-import { TiSocialInstagram } from "react-icons/ti";
+import { useMediaQuery } from "react-responsive";
+
+import Adresses from "../components/Adresses";
+import Firm from "../components/Firm";
+import AddedInfo from "../components/AddedInfo";
 
 import "../styles/Contact.css";
 
 import contact from "../images/contact.jpg";
 
 const Contact = () => {
+  const isChanged = useMediaQuery({ query: "(max-width:850px" });
+
   return (
     <div className="contact">
       <aside>
@@ -24,31 +27,10 @@ const Contact = () => {
           spotkaniu przy kawie. <br></br>
           <strong>Do usłyszenia!</strong>
         </p>
-        <div className="firm">
-          <p>ES FOTOGRAFIE Ewelina Sadowska</p>
-          <p>Kaczorowskiego 7/313</p>
-          <p>15-375 Białystok</p>
-          <p>NIP 5461374623</p>
-        </div>
-        <div className="adresses">
-          <p>
-            <TiDevicePhone className="contact_icon" />
-            tel.510930418
-          </p>
-          <p>
-            <TiMail className="contact_icon" />
-            sadowskafotografie@gmail.com
-          </p>
-          <p>
-            <TiSocialFacebook className="contact_icon" />
-            fb.me/sadowskafotografie
-          </p>{" "}
-          <p>
-            <TiSocialInstagram className="contact_icon" />
-            instagram.com/sadowskafotografie/
-          </p>
-        </div>
+        {isChanged ? null : <Firm />}
+        {isChanged ? null : <Adresses />}
       </div>
+      {isChanged ? <AddedInfo /> : null}
     </div>
   );
 };

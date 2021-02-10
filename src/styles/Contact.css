@@ -10,12 +10,47 @@
   .info_contact {
     padding-right: 100px;
     padding-left: 80px;
-    margin-top: 7vw;
+    margin-top: 5vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .info_contact {
+    margin-bottom: 0;
+    margin-top: 3vw;
+  }
+}
+@media (max-width: 700px) {
+  .info_contact {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .info_contact {
+    float: none;
+    width: 100vw;
+    border-left: none;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .info_contact p {
+    font-size: 15px;
   }
 }
 .contact aside {
   float: left;
   width: 50%;
+}
+
+@media (max-width: 600px) {
+  .contact aside {
+    float: none;
+    width: 100%;
+  }
 }
 .contact aside img {
   width: 50%;
@@ -40,7 +75,25 @@
     margin-top: 12vw;
   }
 }
-
+@media (max-width: 850px) {
+  .contact aside img {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 2vw;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 770px) {
+  .contact aside img {
+    margin-top: 6vw;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .contact aside img {
+    margin: 15px auto;
+  }
+}
 .contact h1 {
   font-weight: 300;
   font-size: 30px;
@@ -50,6 +103,16 @@
 @media (max-width: 1360px) {
   .contact h1 {
     font-size: 25px;
+  }
+}
+@media (max-width: 700px) {
+  .contact h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .contact h1 {
+    margin-bottom: 15px;
   }
 }
 
@@ -69,6 +132,11 @@
 
   text-align: left;
 }
+@media (max-width: 1250px) {
+  .adresses {
+    margin-top: 45px;
+  }
+}
 .adresses p {
   margin-bottom: 5px;
   font-size: 16px;
@@ -78,6 +146,7 @@
     font-size: 14px;
   }
 }
+
 .contact_icon {
   font-size: 30px;
   padding-bottom: 3.5px;
@@ -89,8 +158,18 @@
   color: rgb(75, 12, 15);
 }
 @media (max-width: 1360px) {
-  .afirm {
+  .firm {
     font-size: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .firm {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .firm {
+    margin-top: 35px;
   }
 }
 .firm p {
@@ -98,4 +177,53 @@
 }
 .firm p:first-child {
   font-weight: 500;
+}
+
+/* KOMPONENTY PRZY PODZIALE NA 4 - OD 850px */
+
+.mobile_info {
+  overflow: hidden;
+  width: 100vw;
+  margin-bottom: 35px;
+}
+.firm_info {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+@media (max-width: 750px) {
+  .firm_info {
+    width: 45%;
+    margin-top: 10px;
+    padding-left: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .firm_info {
+    float: none;
+    width: 100vw;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+.adress_info {
+  width: 35%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+@media (max-width: 750px) {
+  .adress_info {
+    width: 38%;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .adress_info {
+    float: none;
+    width: 100vw;
+  }
 }

@@ -10,7 +10,7 @@ import logo from "../images/LOGO.png";
 import "../styles/Header.css";
 
 const Header = () => {
-  const isMobile = useMediaQuery({ query: "(max-width:740px" });
+  const isMobile = useMediaQuery({ query: "(max-width:820px" });
   const navigation = isMobile ? <NavButton /> : <NavDesktop />;
   return (
     <div className="header">
