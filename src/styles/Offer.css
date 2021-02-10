@@ -1,3 +1,6 @@
+/* .offer_wrapper {
+  margin-bottom: 450px;
+} */
 .offer {
   margin: 15px 250px;
 }
@@ -50,6 +53,12 @@
     max-width: 800px;
   }
 }
+@media (max-width: 800px) {
+  .photos_offer {
+    margin-top: 20px;
+  }
+}
+
 .contain_overlay {
   width: 33.3%;
   float: left;

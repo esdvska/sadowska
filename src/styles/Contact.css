@@ -2,7 +2,7 @@
   float: left;
   padding: 30px 250px 30px 120px;
   border-left: 1px solid rgb(75, 12, 15);
-  margin: 6vw auto;
+  margin: 4vw auto;
   width: 50%;
   height: 40%;
 }
@@ -54,7 +54,7 @@
 }
 .contact aside img {
   width: 50%;
-  margin: 7vw auto 110px 200px;
+  margin: 4vw auto 110px 200px;
 }
 @media (max-width: 1700px) {
   .contact aside img {

@@ -8,7 +8,7 @@ import img3 from "../images/offer/plener_slubny_bialystok_03.jpg";
 
 const Offer = () => {
   return (
-    <div>
+    <div className="offer_wrapper">
       <div className="offer">
         <p>
           Dzień ślubu to bardzo ważne wydarzenie w Waszym życiu. Każdy z Was ma
