@@ -14,20 +14,21 @@
 .icons_footer a {
   color: rgb(75, 12, 15);
 }
-.icons_footer a:hover {
-  color: rgb(39, 39, 39);
-  text-decoration: none;
-}
+
 @media (max-width: 1300px) {
   .icons_footer {
     padding-left: 50px;
     width: 30%;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .icons_footer {
     padding-left: 10px;
   }
+}
+.icons_footer a:hover {
+  color: rgb(241, 175, 37);
+  text-decoration: none;
 }
 .footer {
   width: 50%;
@@ -46,11 +47,11 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .footer {
     font-size: 10px;
     padding: 10px 30px;
-    padding-right: 80px;
+    padding-right: 70px;
   }
 }
 .footer p {

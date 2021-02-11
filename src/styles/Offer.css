@@ -62,7 +62,9 @@
 .contain_overlay {
   width: 33.3%;
   float: left;
+  transition: 2s;
 }
+
 @media (max-width: 650px) {
   .contain_overlay {
     float: none;
@@ -72,13 +74,15 @@
   }
 }
 .overlay {
-  font-family: p22-pouty-pro, sans-serif;
   position: relative;
   width: 26vw;
   height: 32vw;
   margin: 0 auto;
   background-color: #15100c;
 }
+/* .overlay:hover {
+  background-color: #eaebe3;
+} */
 @media (max-width: 650px) {
   .overlay {
     width: 80vw;
@@ -87,6 +91,7 @@
   }
 }
 .overlay h1 {
+  font-family: p22-pouty-pro, sans-serif;
   position: absolute;
   top: 19vw;
   left: 0;
@@ -98,12 +103,59 @@
 
   font-style: normal;
 }
+
 @media (max-width: 650px) {
   .overlay h1 {
     top: 59vw;
     font-size: 8vw;
   }
 }
+.hover_element {
+  background-color: rgb(255, 255, 255, 0.9);
+  color: rgb(39, 39, 39);
+  position: absolute;
+  top: 6%;
+  margin-left: 10%;
+  width: 80%;
+  height: 86%;
+}
+.hover_element div {
+  margin-top: 4vw;
+}
+@media (max-width: 1380px) {
+  .hover_element div {
+    margin-top: 16%;
+  }
+}
+
+.hover_element h2 {
+  color: rgb(75, 12, 15);
+  font-family: p22-pouty-pro, sans-serif;
+  font-size: 2.5vw;
+  margin-bottom: 2vw;
+}
+@media (max-width: 650px) and (orientation: portrait) {
+  .hover_element h2 {
+    font-size: 8vw;
+    margin-bottom: 6vw;
+  }
+}
+
+.hover_element section {
+  text-transform: uppercase;
+  font-size: 1vw;
+  margin-bottom: 10%;
+}
+@media (max-width: 650px) and (orientation: portrait) {
+  .hover_element section {
+    font-size: 3vw;
+  }
+}
+
+.hover_element section ul {
+  list-style: none;
+}
+
 .photos_offer img {
   object-fit: cover;
   width: 26vw;
