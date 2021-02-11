@@ -62,7 +62,6 @@
 .contain_overlay {
   width: 33.3%;
   float: left;
-  transition: 2s;
 }
 
 @media (max-width: 650px) {

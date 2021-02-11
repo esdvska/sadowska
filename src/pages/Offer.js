@@ -10,6 +10,8 @@ import OfferStandard from "../components/OfferStandard";
 import OfferPremium from "../components/OfferPremium";
 import OfferBasic from "../components/OfferBasic";
 
+import Faqs from "../components/Faq";
+
 const Offer = () => {
   const [hoverStandard, setHoverStandard] = useState(false);
 
@@ -109,6 +111,8 @@ const Offer = () => {
           </div>
         </div>
       </div>
+
+      <Faqs />
     </div>
   );
 };

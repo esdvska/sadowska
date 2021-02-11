@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import { useMediaQuery } from "react-responsive";
 
@@ -14,8 +15,10 @@ const Header = () => {
   const navigation = isMobile ? <NavButton /> : <NavDesktop />;
   return (
     <div className="header">
-      <img src={logo} alt="logo" className="logo" />
-      {navigation}
+      <NavLink to="/" exact>
+        <img src={logo} alt="logo" className="logo" />
+        {navigation}
+      </NavLink>
     </div>
   );
 };
