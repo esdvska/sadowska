@@ -48,7 +48,7 @@
   margin: 40px auto;
   max-width: 1700px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .photos_offer {
     max-width: 800px;
   }
@@ -133,7 +133,12 @@
   font-size: 2.5vw;
   margin-bottom: 2vw;
 }
-@media (max-width: 650px) and (orientation: portrait) {
+@media (max-width: 850px) {
+  .hover_element h2 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 650px) {
   .hover_element h2 {
     font-size: 8vw;
     margin-bottom: 6vw;
@@ -145,7 +150,12 @@
   font-size: 1vw;
   margin-bottom: 10%;
 }
-@media (max-width: 650px) and (orientation: portrait) {
+@media (max-width: 850px) {
+  .hover_element section {
+    font-size: 1.3vw;
+  }
+}
+@media (max-width: 650px) {
   .hover_element section {
     font-size: 3vw;
   }

@@ -28,6 +28,17 @@ const Offer = () => {
   const handleMouseBasic = () => {
     setHoverBasic((prev) => !prev);
   };
+  const handleResetHover = () => {
+    if (hoverStandard) {
+      setHoverStandard(false);
+    }
+    if (hoverPremium) {
+      setHoverPremium(false);
+    }
+    if (hoverBasic) {
+      setHoverBasic(false);
+    }
+  };
   const hoverElementStandard = hoverStandard ? (
     <OfferStandard />
   ) : (
@@ -56,17 +67,18 @@ const Offer = () => {
     </h1>
   );
   return (
-    <div className="offer_wrapper">
+    <div className="offer_wrapper" onClick={handleResetHover}>
       <div className="offer">
         <p>
-          Dzień ślubu to bardzo ważne wydarzenie w Waszym życiu. Każdy z Was ma
-          inne potrzeby i oczekiwania odnośnie fotografa ślubnego, dlatego
-          oferta jest zawsze dopasowana do Waszych potrzeb.{" "}
+          <strong>Dzień ślubu</strong> to bardzo ważne wydarzenie w Waszym
+          życiu. Każdy z Was ma inne potrzeby i oczekiwania odnośnie{" "}
+          <strong>fotografa ślubnego,</strong> dlatego oferta jest zawsze
+          dopasowana do Waszych potrzeb.{" "}
         </p>
         <p>Poniżej możecie zapoznać się z trzema podstawowymi pakietami.</p>
         <p>
-          Do każdego z nich możecie zamówić sesję narzeczeńską - na której mamy
-          się okazję bliżej poznać.
+          Do każdego z nich możecie zamówić <strong>sesję narzeczeńską</strong>{" "}
+          - na której mamy się okazję bliżej poznać.
         </p>
         <p>
           {" "}
@@ -84,6 +96,7 @@ const Offer = () => {
           className="contain_overlay"
           onMouseEnter={handleMouseStandard}
           onMouseLeave={handleMouseStandard}
+          onClick={handleMouseStandard}
         >
           <div className="overlay">
             <img src={img2} alt="oferta śłubna"></img>
@@ -94,6 +107,7 @@ const Offer = () => {
           className="contain_overlay"
           onMouseEnter={handleMousePremium}
           onMouseLeave={handleMousePremium}
+          onClick={handleMousePremium}
         >
           <div className="overlay">
             <img src={img1} alt="oferta śłubna"></img>
@@ -104,6 +118,7 @@ const Offer = () => {
           className="contain_overlay"
           onMouseEnter={handleMouseBasic}
           onMouseLeave={handleMouseBasic}
+          onClick={handleMouseBasic}
         >
           <div className="overlay">
             <img src={img3} alt="oferta śłubna"></img>

@@ -16,9 +16,11 @@ const Header = () => {
   return (
     <div className="header">
       <NavLink to="/" exact>
-        <img src={logo} alt="logo" className="logo" />
-        {navigation}
+        <a href="">
+          <img src={logo} alt="logo" className="logo" />
+        </a>
       </NavLink>
+      {navigation}
     </div>
   );
 };

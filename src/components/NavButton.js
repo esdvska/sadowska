@@ -9,13 +9,17 @@ const NavButton = () => {
   const handleMobileNavigation = () => {
     setNavVisible((prev) => !prev);
   };
-
+  const resetNavVisible = () => {
+    if (navVisible) {
+      setNavVisible(false);
+    }
+  };
   const navButton = navVisible ? (
     <>
       <div className="mobile">
         <VscClose onClick={handleMobileNavigation} />
       </div>
-      <NavMob />
+      <NavMob reset={resetNavVisible} />
     </>
   ) : (
     <div className="mobile">

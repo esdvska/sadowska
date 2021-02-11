@@ -46,10 +46,9 @@ const Faq = () => {
             <p>
               Tak, oczywiście - z materiałów jak najlepszej jakości, Wasze
               zdjęcia ułożone w piękną historie. Dodatkowo mogą Państwo zamówić:
-              <br></br>
-              -fotoalbum w twardej oprawie formatu 30x30, 10 rozkładówek
-              (+500zł)
-              <br></br>-płócienne, ozdobne pudełko na foto album (+150zł).
+              <br></br>- <strong>fotoalbum</strong> w twardej oprawie formatu
+              30x30cm, 10 rozkładówek (+500zł);
+              <br></br>- płócienne, ozdobne pudełko na foto album (+150zł).
             </p>
           </div>
           <div className="faq_section">
@@ -70,9 +69,9 @@ const Faq = () => {
             <p>
               Przede wszystkim na miłą atmosferę i moje wsparcie w każdym
               momencie. Posiadam duże doświadczenie, więc zawsze służę radą i
-              pomocą. Ponadto mogą Państwo również liczyć, że podczas zdjęć
-              grupowych odpowiednio pokieruję i ustawię gości, tak aby wszystko
-              przebiegało sprawnie i bezproblemowo.
+              pomocą. Ponadto mogą Państwo również liczyć, że podczas{" "}
+              <strong>zdjęć grupowych</strong> odpowiednio pokieruję i ustawię
+              gości, tak aby wszystko przebiegało sprawnie i bezproblemowo.
             </p>
           </div>
         </div>
