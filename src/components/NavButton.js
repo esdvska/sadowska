@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import NavMob from "./NavMob";
 import { VscMenu } from "react-icons/vsc";
@@ -10,10 +10,23 @@ const NavButton = () => {
     setNavVisible((prev) => !prev);
   };
   const resetNavVisible = () => {
-    if (navVisible) {
+    if (navVisible === true) {
       setNavVisible(false);
     }
   };
+  const checkScroll = () => {
+    if (navVisible === true && window.pageYOffset > 100) {
+      setNavVisible(false);
+    }
+  };
+  window.addEventListener("scroll", checkScroll);
+  useEffect(() => {
+    window.addEventListener("click", resetNavVisible);
+    return () => {
+      window.removeEventListener("click", resetNavVisible);
+    };
+  }, [[]]);
+
   const navButton = navVisible ? (
     <>
       <div className="mobile">
