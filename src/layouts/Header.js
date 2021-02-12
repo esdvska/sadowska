@@ -16,9 +16,7 @@ const Header = () => {
   return (
     <div className="header">
       <NavLink to="/" exact>
-        <a href="">
-          <img src={logo} alt="logo" className="logo" />
-        </a>
+        <img src={logo} alt="logo" className="logo" />
       </NavLink>
       {navigation}
     </div>
