@@ -23,8 +23,8 @@ const Contact = () => {
         <h1>POZNAJMY SIĘ</h1>
         <p>
           Jeśli macie jakieś pytania/sugestie śmiało piszcie/dzwońcie, chętnie
-          umówię się z Wami na spotkanie i udzielę wszystkich informacji na
-          spotkaniu przy kawie. <br></br>
+          umówię się z Wami na spotkanie i udzielę wszystkich informacji przy
+          kawie. <br></br>
           <strong>Do usłyszenia!</strong>
         </p>
         {isChanged ? null : <Firm />}

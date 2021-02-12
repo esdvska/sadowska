@@ -2,9 +2,19 @@
   width: 100vw;
 
   margin-left: 0;
-
   vertical-align: middle;
+  animation: fadein 1s;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .nav_mob div {
   background-color: rgb(20, 20, 20, 0.9);
   text-align: left;

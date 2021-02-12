@@ -1,0 +1,29 @@
+.intouch {
+  /* width: 100vw; */
+  clear: both;
+}
+.intouch button {
+  margin: 30px auto;
+  transition: 0.5s;
+  text-transform: uppercase;
+  background-color: rgb(75, 12, 15, 0.8);
+  color: hsl(0, 0%, 100%);
+  padding: 8px 35px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 15px;
+
+  border: none;
+}
+@media (max-width: 800px) {
+  .intouch button {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding: 6px 26px;
+    font-size: 13px;
+  }
+}
+.intouch button:hover {
+  background-color: rgb(39, 39, 39);
+  letter-spacing: 3px;
+}

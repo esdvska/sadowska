@@ -11,6 +11,7 @@ import OfferPremium from "../components/OfferPremium";
 import OfferBasic from "../components/OfferBasic";
 
 import Faqs from "../components/Faq";
+import ButtonInTouch from "../components/ButtonInTouch";
 
 const Offer = () => {
   const [hoverStandard, setHoverStandard] = useState(false);
@@ -67,68 +68,74 @@ const Offer = () => {
     </h1>
   );
   return (
-    <div className="offer_wrapper" onClick={handleResetHover}>
-      <div className="offer">
-        <p>
-          <strong>Dzień ślubu</strong> to bardzo ważne wydarzenie w Waszym
-          życiu. Każdy z Was ma inne potrzeby i oczekiwania odnośnie{" "}
-          <strong>fotografa ślubnego,</strong> dlatego oferta jest zawsze
-          dopasowana do Waszych potrzeb.{" "}
-        </p>
-        <p>Poniżej możecie zapoznać się z trzema podstawowymi pakietami.</p>
-        <p>
-          Do każdego z nich możecie zamówić <strong>sesję narzeczeńską</strong>{" "}
-          - na której mamy się okazję bliżej poznać.
-        </p>
-        <p>
-          {" "}
-          Dzięki sesji narzeczeńskiej możecie zobaczyć jak pracuje, poczuć się
-          swobodniej przed obiektywem - dzięki temu w dniu ślubu nie stresujecie
-          się przynajmniej tym jednym aspektem.
-        </p>
-        <p>
-          Zapraszam do kontaktu - chętnie omówię z Wami wszystkie szczegóły
-          Waszego wyjątkowego dnia.{" "}
-        </p>
-      </div>
-      <div className="photos_offer">
-        <div
-          className="contain_overlay"
-          onMouseEnter={handleMouseStandard}
-          onMouseLeave={handleMouseStandard}
-          onClick={handleMouseStandard}
-        >
-          <div className="overlay">
-            <img src={img2} alt="oferta śłubna"></img>
-            {hoverElementStandard}
+    <>
+      <div className="offer_wrapper" onClick={handleResetHover}>
+        <div className="offer">
+          <p>
+            <strong>Dzień ślubu</strong> to bardzo ważne wydarzenie w Waszym
+            życiu. Każdy z Was ma inne potrzeby i oczekiwania odnośnie{" "}
+            <strong>fotografa ślubnego,</strong> dlatego oferta jest zawsze
+            dopasowana do Waszych potrzeb.{" "}
+          </p>
+          <p>Poniżej możecie zapoznać się z trzema podstawowymi pakietami.</p>
+          <p>
+            Do każdego z nich możecie zamówić{" "}
+            <strong>sesję narzeczeńską</strong> - na której mamy się okazję
+            bliżej poznać.
+          </p>
+          <p>
+            {" "}
+            Dzięki sesji narzeczeńskiej możecie zobaczyć jak pracuje, poczuć się
+            swobodniej przed obiektywem - dzięki temu w dniu ślubu nie
+            stresujecie się przynajmniej tym jednym aspektem.
+          </p>
+          <p>
+            Zapraszam do kontaktu - chętnie omówię z Wami wszystkie szczegóły
+            Waszego wyjątkowego dnia.{" "}
+          </p>
+        </div>
+        <div className="photos_offer">
+          <div
+            className="contain_overlay"
+            onMouseEnter={handleMouseStandard}
+            onMouseLeave={handleMouseStandard}
+            onClick={handleMouseStandard}
+          >
+            <div className="overlay">
+              <img src={img2} alt="oferta śłubna"></img>
+              {hoverElementStandard}
+            </div>
+          </div>
+          <div
+            className="contain_overlay"
+            onMouseEnter={handleMousePremium}
+            onMouseLeave={handleMousePremium}
+            onClick={handleMousePremium}
+          >
+            <div className="overlay">
+              <img src={img1} alt="oferta śłubna"></img>
+              {hoverElementPremium}
+            </div>
+          </div>
+          <div
+            className="contain_overlay"
+            onMouseEnter={handleMouseBasic}
+            onMouseLeave={handleMouseBasic}
+            onClick={handleMouseBasic}
+          >
+            <div className="overlay">
+              <img src={img3} alt="oferta śłubna"></img>
+              {hoverElementBasic}
+            </div>
           </div>
         </div>
-        <div
-          className="contain_overlay"
-          onMouseEnter={handleMousePremium}
-          onMouseLeave={handleMousePremium}
-          onClick={handleMousePremium}
-        >
-          <div className="overlay">
-            <img src={img1} alt="oferta śłubna"></img>
-            {hoverElementPremium}
-          </div>
-        </div>
-        <div
-          className="contain_overlay"
-          onMouseEnter={handleMouseBasic}
-          onMouseLeave={handleMouseBasic}
-          onClick={handleMouseBasic}
-        >
-          <div className="overlay">
-            <img src={img3} alt="oferta śłubna"></img>
-            {hoverElementBasic}
-          </div>
-        </div>
-      </div>
 
-      <Faqs />
-    </div>
+        <Faqs />
+      </div>
+      <div>
+        <ButtonInTouch />
+      </div>
+    </>
   );
 };
 export default Offer;

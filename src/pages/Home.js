@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselContainer from "../components/CarouselContainer";
+import ButtonInTouch from "../components/ButtonInTouch";
 
 // import car1 from "../images/carousel/car1.jpg";
 // import car2 from "../images/carousel/car2.jpg";
@@ -23,7 +24,10 @@ const Home = () => {
   // }, [activeImg]);
 
   return (
-    <CarouselContainer />
+    <>
+      <CarouselContainer />
+      <ButtonInTouch />
+    </>
 
     // <div className="carousel-slide">
     //   <div className="carousel-inner">

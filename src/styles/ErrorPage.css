@@ -1,0 +1,86 @@
+.error_page {
+  color: #eaebe3;
+  position: relative;
+  width: 100vw;
+  height: 75vh;
+  background-image: url("../images/page404.jpg");
+  background-position: top;
+}
+@media (max-width: 850px) and (orientation: landscape) {
+  .error_page {
+    height: 175vh;
+  }
+}
+
+.error_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 50%;
+  background-color: rgb(39, 39, 39, 0.8);
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+@media (max-width: 1100px) {
+  .error_box {
+    width: 60%;
+  }
+}
+
+.error_box h1 {
+  font-family: p22-pouty-pro, sans-serif;
+  font-size: 9vw;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+}
+@media (max-width: 1300px) {
+  .error_box h1 {
+    margin-top: 14vh;
+    font-size: 10vw;
+  }
+}
+@media (max-width: 450px) {
+  .error_box h1 {
+    font-size: 7vh;
+    margin-top: 12vh;
+  }
+}
+
+.error_box h2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: 100;
+  font-size: 1.8vw;
+  margin-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .error_box h2 {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 450px) {
+  .error_box h2 {
+    font-size: 2vh;
+  }
+}
+.error_box h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: 100;
+  margin-bottom: 5vh;
+  font-size: 1.2vw;
+}
+@media (max-width: 1200px) {
+  .error_box h3 {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 450px) {
+  .error_box h3 {
+    font-size: 1.5vh;
+  }
+}

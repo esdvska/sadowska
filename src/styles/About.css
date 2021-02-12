@@ -19,6 +19,12 @@
   .about {
     margin-top: 10px;
     padding-bottom: 0px;
+    margin-bottom: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .about {
+    margin-bottom: 250px;
   }
 }
 
