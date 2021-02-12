@@ -1,7 +1,9 @@
 import React, { useState, useCallback } from "react";
+
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "../components/photos";
+import ButtonInTouch from "../components/ButtonInTouch";
 
 const Portfolio = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -18,22 +20,25 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="portfolio">
-      <Gallery photos={photos} direction={"column"} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map((x) => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+    <div>
+      <div className="portfolio">
+        <Gallery photos={photos} direction={"column"} onClick={openLightbox} />
+        <ModalGateway>
+          {viewerIsOpen ? (
+            <Modal onClose={closeLightbox}>
+              <Carousel
+                currentIndex={currentImage}
+                views={photos.map((x) => ({
+                  ...x,
+                  srcset: x.srcSet,
+                  caption: x.title,
+                }))}
+              />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+      </div>
+      <ButtonInTouch />
     </div>
   );
 };
