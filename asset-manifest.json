@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sadowska/static/css/main.ed6503c3.chunk.css",
-    "main.js": "/sadowska/static/js/main.a8cd2292.chunk.js",
-    "main.js.map": "/sadowska/static/js/main.a8cd2292.chunk.js.map",
+    "main.js": "/sadowska/static/js/main.45c4310a.chunk.js",
+    "main.js.map": "/sadowska/static/js/main.45c4310a.chunk.js.map",
     "runtime-main.js": "/sadowska/static/js/runtime-main.eb00f53b.js",
     "runtime-main.js.map": "/sadowska/static/js/runtime-main.eb00f53b.js.map",
     "static/css/2.150d169a.chunk.css": "/sadowska/static/css/2.150d169a.chunk.css",
@@ -81,8 +81,8 @@
     "static/media/fotograf_slubny_bialystok_oferta_01.5b8d59e6.jpg": "/sadowska/static/media/fotograf_slubny_bialystok_oferta_01.5b8d59e6.jpg",
     "static/media/fotograf_slubny_bialystok_oferta_02.7d8bef1f.jpg": "/sadowska/static/media/fotograf_slubny_bialystok_oferta_02.7d8bef1f.jpg",
     "static/media/fotograf_slubny_bialystok_oferta_03.8da6bcf6.jpg": "/sadowska/static/media/fotograf_slubny_bialystok_oferta_03.8da6bcf6.jpg",
-    "static/media/fotografia_slubna_bialystok_01.38f98e37.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_01.38f98e37.jpg",
-    "static/media/fotografia_slubna_bialystok_02.5dc475f8.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_02.5dc475f8.jpg",
+    "static/media/fotografia_slubna_bialystok_01.5dc475f8.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_01.5dc475f8.jpg",
+    "static/media/fotografia_slubna_bialystok_02.38f98e37.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_02.38f98e37.jpg",
     "static/media/fotografia_slubna_bialystok_03.a015c8fa.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_03.a015c8fa.jpg",
     "static/media/fotografia_slubna_bialystok_04.2d7e5e1f.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_04.2d7e5e1f.jpg",
     "static/media/fotografia_slubna_bialystok_05.20130cae.jpg": "/sadowska/static/media/fotografia_slubna_bialystok_05.20130cae.jpg",
@@ -99,6 +99,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.822d3cd2.chunk.js",
     "static/css/main.ed6503c3.chunk.css",
-    "static/js/main.a8cd2292.chunk.js"
+    "static/js/main.45c4310a.chunk.js"
   ]
 }
