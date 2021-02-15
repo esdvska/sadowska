@@ -3,7 +3,7 @@
   position: relative;
   width: 100vw;
   height: 75vh;
-  background-image: url("../images/page404.jpg");
+  background-image: url("../images/page404_foto_bialystok.jpg");
   background-position: top;
 }
 @media (max-width: 850px) and (orientation: landscape) {
@@ -21,7 +21,7 @@
   height: 90%;
   width: 50%;
   background-color: rgb(39, 39, 39, 0.8);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 100;
 }
 
@@ -83,4 +83,12 @@
   .error_box h3 {
     font-size: 1.5vh;
   }
+}
+.error_box a {
+  text-transform: uppercase;
+  color: rgb(221, 161, 32);
+}
+.error_box a:hover {
+  letter-spacing: 2px;
+  color: #eaebe3;
 }

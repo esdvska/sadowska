@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 import "../styles/Offer.css";
 
-import img1 from "../images/offer/plener_slubny_bialystok_01.jpg";
-import img2 from "../images/offer/plener_slubny_bialystok_02.jpg";
-import img3 from "../images/offer/plener_slubny_bialystok_03.jpg";
+import img1 from "../images/offer/fotograf_slubny_bialystok_oferta_01.jpg";
+import img2 from "../images/offer/fotograf_slubny_bialystok_oferta_02.jpg";
+import img3 from "../images/offer/fotograf_slubny_bialystok_oferta_03.jpg";
 
 import OfferStandard from "../components/OfferStandard";
 import OfferPremium from "../components/OfferPremium";
@@ -102,7 +102,7 @@ const Offer = () => {
             onClick={handleMouseStandard}
           >
             <div className="overlay">
-              <img src={img2} alt="oferta śłubna"></img>
+              <img src={img1} alt="oferta śłubna"></img>
               {hoverElementStandard}
             </div>
           </div>
@@ -113,7 +113,7 @@ const Offer = () => {
             onClick={handleMousePremium}
           >
             <div className="overlay">
-              <img src={img1} alt="oferta śłubna"></img>
+              <img src={img2} alt="oferta śłubna"></img>
               {hoverElementPremium}
             </div>
           </div>

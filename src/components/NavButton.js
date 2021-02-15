@@ -11,11 +11,11 @@ const NavButton = () => {
   const handleMobileNavigation = () => {
     setNavVis((prev) => !prev);
   };
-  // const resetNavVis = () => {
-  //   if (navVis === true) {
-  //     setNavVis(false);
-  //   }
-  // };
+  const resetNavVis = () => {
+    if (navVis === true) {
+      setNavVis(false);
+    }
+  };
   const checkScroll = () => {
     if (navVis === true && window.pageYOffset > 100) {
       setNavVis(false);
@@ -36,7 +36,7 @@ const NavButton = () => {
         <VscClose onClick={handleMobileNavigation} />
       </div>
 
-      <NavMob />
+      <NavMob click={resetNavVis} />
     </>
   ) : (
     <div className="mobile">

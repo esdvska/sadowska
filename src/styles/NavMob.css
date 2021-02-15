@@ -30,9 +30,9 @@
   color: rgb(234, 235, 227);
 }
 .nav_mob div a:hover {
-  color: rgb(241, 175, 37);
+  color: rgb(221, 161, 32);
 }
 
 .nav_mob div a.active {
-  color: rgb(241, 175, 37);
+  color: rgb(221, 161, 32);
 }

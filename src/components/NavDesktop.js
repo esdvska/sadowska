@@ -12,17 +12,17 @@ const NavDesktop = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/omnie">O mnie</NavLink>
+            <NavLink to="/oferta_fotograf_bialystok">Oferta</NavLink>
           </li>
 
           <li>
-            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/fotografia_slubna">Portfolio</NavLink>
           </li>
           <li>
-            <NavLink to="/oferta">Oferta</NavLink>
+            <NavLink to="/omnie_ewelina_sadowska">O mnie</NavLink>
           </li>
           <li>
-            <NavLink to="/kontakt">Kontakt</NavLink>
+            <NavLink to="/kontakt_sadowska_fotografie">Kontakt</NavLink>
           </li>
         </ul>
       </nav>

@@ -4,25 +4,33 @@ import { NavLink } from "react-router-dom";
 
 import "../styles/NavMob.css";
 
-const NavMob = () => {
+const NavMob = ({ click }) => {
   return (
     <div className="nav_mob">
       <div>
-        <NavLink to="/" exact>
+        <NavLink to="/" exact onClick={click}>
           Home
         </NavLink>
       </div>
       <div>
-        <NavLink to="/omnie">O mnie</NavLink>
+        <NavLink to="/oferta_fotograf_bialystok" onClick={click}>
+          Oferta
+        </NavLink>
       </div>
       <div>
-        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink to="/fotografia_slubna" onClick={click}>
+          Portfolio
+        </NavLink>
       </div>
       <div>
-        <NavLink to="/oferta">Oferta</NavLink>
+        <NavLink to="/omnie_ewelina_sadowska" onClick={click}>
+          O mnie
+        </NavLink>
       </div>
       <div>
-        <NavLink to="/kontakt">Kontakt</NavLink>
+        <NavLink to="/kontakt_sadowska_fotografie" onClick={click}>
+          Kontakt
+        </NavLink>
       </div>
     </div>
   );

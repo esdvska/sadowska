@@ -13,10 +13,10 @@ const Main = () => {
     <div>
       <Switch>
         <Route path="/" exact component={Home}></Route>
-        <Route path="/portfolio" component={Portfolio}></Route>
-        <Route path="/oferta" component={Offer}></Route>
-        <Route path="/omnie" component={About}></Route>
-        <Route path="/kontakt" component={Contact}></Route>
+        <Route path="/oferta_fotograf_bialystok" component={Offer}></Route>
+        <Route path="/fotografia_slubna" component={Portfolio}></Route>
+        <Route path="/omnie_ewelina_sadowska" component={About}></Route>
+        <Route path="/kontakt_sadowska_fotografie" component={Contact}></Route>
         <Route component={ErrorPage} />
       </Switch>
     </div>

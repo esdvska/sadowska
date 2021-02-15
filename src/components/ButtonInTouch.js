@@ -5,8 +5,8 @@ import "../styles/ButtonInTouch.css";
 const ButtonInTouch = () => {
   return (
     <div className="intouch">
-      <NavLink to="/kontakt/">
-        <button>get in touch</button>
+      <NavLink to="/kontakt_sadowska_fotografie">
+        <button>napisz do mnie</button>
       </NavLink>
     </div>
   );

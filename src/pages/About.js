@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 
 import "../styles/About.css";
 
-import profile from "../images/profile2.jpg";
+import profile from "../images/ewelina_sadowska_fotograf.jpg";
 import ButtonInTouch from "../components/ButtonInTouch";
 const About = () => {
   const isSmall = useMediaQuery({ query: "(max-width:800px" });
@@ -27,15 +27,15 @@ const About = () => {
             lat - uwielbiałam oglądać czarno-białe fotografie dziadków,
             chłonęłam czasopisma w poszukiwaniu pięknych kadrów. Z czasem hobby
             przerodziło się w zawód, a kompaktowy aparat zamienił się w
-            profesjonalne pełnoklatkowe lusterkowce Nikona, w których jestem
-            zakochana bez pamięci.
+            profesjonalne <strong>pełnoklatkowe lusterkowce Nikona,</strong> w
+            których jestem zakochana bez pamięci.
           </p>{" "}
           <p>
             Jednak to nie pasja do fotografii sprawiła, że zajęłam się{" "}
             <strong>fotografią ślubną</strong> zawodowo, sprawiła to pasja do
-            ludzi. Uwielbiam Wasze historie - te małe i duże. Uwielbiam patrzeć
-            na to jak się kochacie, dowiadywać się co sprawia, że się
-            uśmiechacie, a co, że się wzruszacie.{" "}
+            ludzi. Uwielbiam <strong>Wasze historie</strong> - te małe i duże.
+            Uwielbiam patrzeć na to jak się kochacie, dowiadywać się co sprawia,
+            że się uśmiechacie, a co, że się wzruszacie.{" "}
           </p>
           {isSmall ? null : (
             <section>

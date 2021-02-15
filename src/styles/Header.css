@@ -42,10 +42,10 @@
 }
 
 .main_nav li a:hover {
-  color: rgb(241, 175, 37);
+  color: rgb(221, 161, 32);
 }
 .main_nav li a.active {
-  color: rgb(241, 175, 37);
+  color: rgb(221, 161, 32);
 }
 
 /* MOBILE */

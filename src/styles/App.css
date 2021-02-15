@@ -3,7 +3,8 @@
 -bordo: rgb(75, 12, 15);
 -ciemne szarości:  color: rgb(39, 39, 39);
 -kremowy   color: #eaebe3;
-- żółty: rgb(241, 175, 37);
+- żółty: rgb(241, 175, 37); - logo
+- musztarda: rgb(221, 161, 32);
 
 
 
@@ -28,12 +29,13 @@ header {
   font-family: "Catamaran", "Helvetica", "Arial" sans-serif;
   font-weight: 100;
   text-align: center;
+  overflow: hidden;
 }
 
 .scrollTop {
   position: fixed;
   font-size: 35px;
-  color: rgb(241, 175, 37);
+  color: rgb(221, 161, 32);
   right: 23px;
   bottom: -10px;
   align-items: right;

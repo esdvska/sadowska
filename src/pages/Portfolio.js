@@ -4,6 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "../components/photos";
 import ButtonInTouch from "../components/ButtonInTouch";
+import "../styles/Portfolio.css";
 
 const Portfolio = () => {
   const [currentImage, setCurrentImage] = useState(0);
