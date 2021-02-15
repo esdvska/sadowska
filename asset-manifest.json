@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sadowska/static/css/main.517df0e8.chunk.css",
+    "main.css": "/sadowska/static/css/main.ed6503c3.chunk.css",
     "main.js": "/sadowska/static/js/main.a8cd2292.chunk.js",
     "main.js.map": "/sadowska/static/js/main.a8cd2292.chunk.js.map",
     "runtime-main.js": "/sadowska/static/js/runtime-main.eb00f53b.js",
@@ -12,7 +12,7 @@
     "static/js/3.91a1174f.chunk.js.map": "/sadowska/static/js/3.91a1174f.chunk.js.map",
     "index.html": "/sadowska/index.html",
     "static/css/2.150d169a.chunk.css.map": "/sadowska/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.517df0e8.chunk.css.map": "/sadowska/static/css/main.517df0e8.chunk.css.map",
+    "static/css/main.ed6503c3.chunk.css.map": "/sadowska/static/css/main.ed6503c3.chunk.css.map",
     "static/js/2.822d3cd2.chunk.js.LICENSE.txt": "/sadowska/static/js/2.822d3cd2.chunk.js.LICENSE.txt",
     "static/media/ewelina_sadowska_fotograf.e87a9cdf.jpg": "/sadowska/static/media/ewelina_sadowska_fotograf.e87a9cdf.jpg",
     "static/media/fotograf_bialystok.3b5923e9.jpg": "/sadowska/static/media/fotograf_bialystok.3b5923e9.jpg",
@@ -98,7 +98,7 @@
     "static/js/runtime-main.eb00f53b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.822d3cd2.chunk.js",
-    "static/css/main.517df0e8.chunk.css",
+    "static/css/main.ed6503c3.chunk.css",
     "static/js/main.a8cd2292.chunk.js"
   ]
 }
