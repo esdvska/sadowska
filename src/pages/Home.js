@@ -26,7 +26,6 @@ const Home = () => {
   return (
     <>
       <CarouselContainer />
-      <ButtonInTouch />
     </>
 
     // <div className="carousel-slide">
