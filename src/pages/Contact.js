@@ -8,7 +8,7 @@ import AddedInfo from "../components/AddedInfo";
 
 import "../styles/Contact.css";
 
-import contact from "../images/contact.jpg";
+import contact from "../images/fotograf_bialystok.jpg";
 
 const Contact = () => {
   const isChanged = useMediaQuery({ query: "(max-width:850px" });
@@ -16,15 +16,15 @@ const Contact = () => {
   return (
     <div className="contact">
       <aside>
-        <img src={contact} alt="Fotograf Ślubny" />
+        <img src={contact} alt="Fotograf Ślubny Białystok" />
       </aside>
 
       <div className="info_contact">
         <h1>POZNAJMY SIĘ</h1>
         <p>
-          Jeśli macie jakieś pytania/sugestie śmiało piszcie/dzwońcie, chętnie
-          umówię się z Wami na spotkanie i udzielę wszystkich informacji przy
-          kawie. <br></br>
+          Jeśli macie jakieś pytania lub sugestie śmiało piszcie, chętnie umówię
+          się z Wami na spotkanie i udzielę wszystkich informacji przy kawie.{" "}
+          <br></br>
           <strong>Do usłyszenia!</strong>
         </p>
         {isChanged ? null : <Firm />}
