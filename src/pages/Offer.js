@@ -86,8 +86,9 @@ const Offer = () => {
           <p>
             {" "}
             Dzięki sesji narzeczeńskiej możecie zobaczyć jak pracuje, poczuć się
-            swobodniej przed obiektywem - dzięki temu w dniu ślubu nie
-            stresujecie się przynajmniej tym jednym aspektem.
+            swobodniej przed obiektywem - dzięki temu{" "}
+            <strong>w dniu ślubu</strong> nie stresujecie się przynajmniej tym
+            jednym aspektem.
           </p>
           <p>
             Zapraszam do kontaktu - chętnie omówię z Wami wszystkie szczegóły

@@ -30,7 +30,7 @@ const Faq = () => {
             </p>
           </div>
           <div className="faq_section">
-            <h2>Gdzie wykonuje Pani plener?</h2>
+            <h2>Gdzie wykonuje Pani zdjęcia?</h2>
             <p>
               Nie ma ograniczeń co do miejsca, mogę być z Wami wszędzie - nawet
               na drugim końcu świata! <strong>W Białymstoku</strong> i w
@@ -42,25 +42,25 @@ const Faq = () => {
         </div>
         <div className="faq2">
           <div className="faq_section">
-            <h2>Czy wykonuje Pani foto albumy?</h2>
+            <h2>Czy wykonuje Pani fotoalbumy?</h2>
             <p>
               Tak, oczywiście - z materiałów jak najlepszej jakości, Wasze
               zdjęcia ułożone w piękną historie. Dodatkowo mogą Państwo zamówić:
               <br></br>- <strong>fotoalbum</strong> w twardej oprawie formatu
               30x30cm, 10 rozkładówek (+500zł);
-              <br></br>- płócienne, ozdobne pudełko na foto album (+150zł).
+              <br></br>- płócienne, ozdobne pudełko na fotoalbum (+150zł).
             </p>
           </div>
           <div className="faq_section">
             <h2>Jak wygląda rezerwacja terminu i podpisanie umowy?</h2>
             <p>
               Umawiamy się wstępnie telefonicznie lub mailowo co do opcji
-              reportażu, wybranego pakietu. Następnie na spotkaniu osobiście
-              ustalamy wszystkie szczegóły. Podpisujemy umowę, Państwo wpłacacie
-              zaliczkę w wysokości ok. 30% całkowitej kwoty. Zaliczkę można
-              wpłacić gotówką przy podpisaniu umowy lub przelewem do 7 dni od
-              jej podpisania. Od momentu otrzymania przeze mnie zaliczki termin
-              jest zarezerwowany.
+              <strong> reportażu,</strong> wybranego pakietu. Następnie na
+              spotkaniu osobiście ustalamy wszystkie szczegóły. Podpisujemy
+              umowę, Państwo wpłacacie zaliczkę w wysokości ok. 30% całkowitej
+              kwoty. Zaliczkę można wpłacić gotówką przy podpisaniu umowy lub
+              przelewem do 7 dni od jej podpisania. Od momentu otrzymania przeze
+              mnie zaliczki termin jest zarezerwowany.
             </p>
           </div>
 
@@ -68,10 +68,11 @@ const Faq = () => {
             <h2>Na co jeszcze możemy liczyć podczas ślubu?</h2>
             <p>
               Przede wszystkim na miłą atmosferę i moje wsparcie w każdym
-              momencie. Posiadam duże doświadczenie, więc zawsze służę radą i
-              pomocą. Ponadto mogą Państwo również liczyć, że podczas{" "}
-              <strong>zdjęć grupowych</strong> odpowiednio pokieruję i ustawię
-              gości, tak aby wszystko przebiegało sprawnie i bezproblemowo.
+              momencie. Posiadam <strong>duże doświadczenie,</strong> więc
+              zawsze służę radą i pomocą. Ponadto mogą Państwo również liczyć,
+              że podczas <strong>zdjęć grupowych</strong> odpowiednio pokieruję
+              i ustawię gości, tak aby wszystko przebiegało sprawnie i
+              bezproblemowo.
             </p>
           </div>
         </div>
