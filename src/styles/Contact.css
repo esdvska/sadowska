@@ -60,6 +60,7 @@
 .contact aside img {
   width: 50%;
   margin: 4vw auto 110px 200px;
+  transition: 1s;
 }
 @media (max-width: 1700px) {
   .contact aside img {
