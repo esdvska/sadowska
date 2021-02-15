@@ -20,11 +20,11 @@ const Footer = () => {
           {" "}
           <TiSocialInstagram />
         </a>
-        <NavLink to="./kontakt">
+        <NavLink to="./kontakt_sadowska_fotografie">
           {" "}
           <TiDevicePhone />
         </NavLink>
-        <NavLink to="./kontakt">
+        <NavLink to="./kontakt_sadowska_fotografie">
           {" "}
           <TiMail />
         </NavLink>

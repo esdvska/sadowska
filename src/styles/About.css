@@ -47,6 +47,7 @@
     float: none;
     border: none;
     width: 80%;
+    padding-bottom: 0;
   }
 }
 @media (max-width: 414px) {

@@ -10,7 +10,7 @@ const Adresses = () => {
     <div className="adresses">
       <p>
         <TiDevicePhone className="contact_icon" />
-        tel.510930418
+        tel. 510 930 418
       </p>
       <p>
         <TiMail className="contact_icon" />

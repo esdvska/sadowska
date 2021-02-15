@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-
-import { CSSTransition as Transition } from "react-transition-group";
+import React, { useState } from "react";
 
 import NavMob from "./NavMob";
 import { VscMenu } from "react-icons/vsc";
@@ -22,13 +20,6 @@ const NavButton = () => {
     }
   };
   window.addEventListener("scroll", checkScroll);
-
-  // useEffect(() => {
-  //   window.addEventListener("click", resetNavVis);
-  //   return () => {
-  //     window.removeEventListener("click", resetNavVis);
-  //   };
-  // }, [[]]);
 
   const navButton = navVis ? (
     <>
