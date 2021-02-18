@@ -1,8 +1,6 @@
-/* @media (max-width: 650px) {
-  .header {
-    text-align: left;
-  }
-} */
+.header {
+  float: none;
+}
 
 .logo {
   width: 120px;

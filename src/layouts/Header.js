@@ -12,7 +12,7 @@ import "../styles/Header.css";
 
 const Header = () => {
   const isMobile = useMediaQuery({
-    query: "(max-device-width:820px",
+    query: "(max-width:1000px",
   });
   const navigation = isMobile ? <NavButton /> : <NavDesktop />;
   return (
