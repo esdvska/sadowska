@@ -75,24 +75,16 @@ const Offer = () => {
             <strong>Dzień ślubu</strong> to bardzo ważne wydarzenie w Waszym
             życiu. Każdy z Was ma inne potrzeby i oczekiwania odnośnie{" "}
             <strong>fotografa ślubnego,</strong> dlatego oferta jest zawsze
-            dopasowana do Waszych potrzeb.{" "}
-          </p>
-          <p>Poniżej możecie zapoznać się z trzema podstawowymi pakietami.</p>
-          <p>
-            Do każdego z nich możecie zamówić{" "}
-            <strong>sesję narzeczeńską</strong> - na której mamy się okazję
-            bliżej poznać.
+            dopasowana do Waszych potrzeb. Poniżej możecie zapoznać się z trzema
+            podstawowymi pakietami. Do każdego z nich możecie zamówić sesję
+            narzeczeńską - na której mamy się okazję bliżej poznać.{" "}
           </p>
           <p>
-            {" "}
-            Dzięki sesji narzeczeńskiej możecie zobaczyć jak pracuje, poczuć się
-            swobodniej przed obiektywem - dzięki temu{" "}
-            <strong>w dniu ślubu</strong> nie stresujecie się przynajmniej tym
-            jednym aspektem.
-          </p>
-          <p>
-            Zapraszam do kontaktu - chętnie omówię z Wami wszystkie szczegóły
-            Waszego wyjątkowego dnia.{" "}
+            <strong>Sesja narzeczeńska</strong> pozwali Wam zobaczyć jak
+            pracuje, pozwoli poczuć się swobodniej przed obiektywem - dzięki
+            temu <strong>w dniu ślubu</strong> nie stresujecie się przynajmniej
+            tym jednym aspektem. Zapraszam do kontaktu - chętnie omówię z Wami
+            wszystkie szczegóły Waszego wyjątkowego dnia.{" "}
           </p>
         </div>
         <div className="photos_offer">
