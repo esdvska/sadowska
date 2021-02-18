@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sadowska/static/css/main.cc96eb57.chunk.css",
-    "main.js": "/sadowska/static/js/main.04d5e47f.chunk.js",
-    "main.js.map": "/sadowska/static/js/main.04d5e47f.chunk.js.map",
+    "main.js": "/sadowska/static/js/main.18104b16.chunk.js",
+    "main.js.map": "/sadowska/static/js/main.18104b16.chunk.js.map",
     "runtime-main.js": "/sadowska/static/js/runtime-main.eb00f53b.js",
     "runtime-main.js.map": "/sadowska/static/js/runtime-main.eb00f53b.js.map",
     "static/css/2.150d169a.chunk.css": "/sadowska/static/css/2.150d169a.chunk.css",
@@ -99,6 +99,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.822d3cd2.chunk.js",
     "static/css/main.cc96eb57.chunk.css",
-    "static/js/main.04d5e47f.chunk.js"
+    "static/js/main.18104b16.chunk.js"
   ]
 }
