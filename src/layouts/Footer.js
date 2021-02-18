@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiDevicePhone } from "react-icons/ti";
