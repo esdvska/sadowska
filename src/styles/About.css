@@ -66,7 +66,7 @@
     font-size: 22px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   .about h1 {
     font-size: 20px;
   }
@@ -95,7 +95,7 @@
     font-size: 25px;
   }
 }
-@media (max-width: 800px) and(orientation: landscape ) {
+@media (max-width: 800px) and (orientation: landscape) {
   .about h2 {
     margin-top: 0px;
   }

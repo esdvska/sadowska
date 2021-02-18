@@ -11,7 +11,9 @@ import logo from "../images/logo_sadowska_fotografie.png";
 import "../styles/Header.css";
 
 const Header = () => {
-  const isMobile = useMediaQuery({ query: "(max-width:820px" });
+  const isMobile = useMediaQuery({
+    query: "(max-width:820px",
+  });
   const navigation = isMobile ? <NavButton /> : <NavDesktop />;
   return (
     <div className="header">
