@@ -7,31 +7,25 @@ import "../styles/NavMob.css";
 const NavMob = ({ click }) => {
   return (
     <div className="nav_mob">
-      <div>
-        <NavLink to="/" exact onClick={click}>
-          Home
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/oferta_fotograf_bialystok" onClick={click}>
-          Oferta
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/fotografia_slubna" onClick={click}>
-          Portfolio
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/omnie_ewelina_sadowska" onClick={click}>
-          O mnie
-        </NavLink>
-      </div>
-      <div>
-        <NavLink to="/kontakt_sadowska_fotografie" onClick={click}>
-          Kontakt
-        </NavLink>
-      </div>
+      <NavLink to="/" exact onClick={click}>
+        <div>Home</div>
+      </NavLink>
+
+      <NavLink to="/oferta_fotograf_bialystok" onClick={click}>
+        <div> Oferta</div>
+      </NavLink>
+
+      <NavLink to="/fotografia_slubna" onClick={click}>
+        <div> Portfolio </div>
+      </NavLink>
+
+      <NavLink to="/omnie_ewelina_sadowska" onClick={click}>
+        <div>O mnie </div>
+      </NavLink>
+
+      <NavLink to="/kontakt_sadowska_fotografie" onClick={click}>
+        <div> Kontakt </div>
+      </NavLink>
     </div>
   );
 };

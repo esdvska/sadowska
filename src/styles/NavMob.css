@@ -24,15 +24,16 @@
 
   border-top: 0.3px solid rgb(234, 235, 227, 0.5);
 }
-.nav_mob div a {
+.nav_mob a {
   font-size: 13px;
-  text-decoration: none;
+
   color: rgb(234, 235, 227);
 }
-.nav_mob div a:hover {
+.nav_mob a:hover {
   color: rgb(221, 161, 32);
+  text-decoration: none;
 }
 
-.nav_mob div a.active {
+.nav_mob a.active {
   color: rgb(221, 161, 32);
 }

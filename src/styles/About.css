@@ -19,19 +19,19 @@
   .about {
     margin-top: 10px;
     padding-bottom: 0px;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
   }
 }
 @media (max-width: 450px) {
   .about {
-    margin-bottom: 250px;
+    margin-bottom: 300px;
   }
 }
 
 /* SEKCJA INFO - NAPISY */
 .info {
   float: left;
-  padding: 55px 8vw 60px 10vw;
+  padding: 25px 8vw 60px 10vw;
   border-right: 1px solid rgb(75, 12, 15);
   margin: auto;
   width: 50%;
@@ -60,6 +60,7 @@
   font-weight: 300;
   font-size: 30px;
   color: rgb(75, 12, 15);
+  margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
   .about h1 {
@@ -71,11 +72,11 @@
     font-size: 20px;
   }
 }
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   .about h1 {
     font-size: 16px;
   }
-}
+} */
 .about h2 {
   font-weight: 300;
   font-size: 30px;
@@ -84,27 +85,7 @@
   margin-bottom: 5px;
   margin-top: 50px;
 }
-/* @media (max-width: 1280px) {
-  .about h2 {
-    font-size: 17px;
-  }
-} */
 
-@media (max-width: 1024px) {
-  .about h2 {
-    font-size: 25px;
-  }
-}
-@media (max-width: 800px) and (orientation: landscape) {
-  .about h2 {
-    margin-top: 0px;
-  }
-}
-@media (max-width: 414px) {
-  .about h2 {
-    font-size: 13px;
-  }
-}
 .about h3 {
   font-weight: 300;
   font-size: 15px;
@@ -113,32 +94,29 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-@media (max-width: 1280px) {
-  .about h3 {
-    font-size: 16px;
-  }
-}
-@media (max-width: 1024px) {
-  .about h3 {
-    font-size: 14px;
-  }
+
+.about p {
+  text-align: justify;
+  text-indent: 1.5em;
+  font-size: 18px;
 }
 @media (max-width: 1280px) {
   .about p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 1024px) {
   .about p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+/* @media (max-width: 414px) {
+  .about p {
     font-size: 13px;
   }
-}
-@media (max-width: 414px) {
-  .about p {
-    font-size: 11px;
-  }
-}
+} */
 
 /* SEKCJA IMG */
 .about aside {
@@ -173,18 +151,16 @@
 @media (max-width: 1280px) {
   .about aside img {
     margin-bottom: 100px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 1024px) {
   .about aside img {
     margin-bottom: 120px;
-    margin-top: 50px;
   }
 }
 @media (max-width: 800px) {
   .about aside img {
-    margin-top: 0px;
     margin-bottom: 0;
     margin-right: 10px;
   }
@@ -196,7 +172,7 @@
 }
 @media (max-width: 414px) {
   .about aside img {
-    width: 80%;
+    width: 90%;
     margin-left: 20px;
   }
 }
@@ -232,11 +208,11 @@
   font-family: p22-pouty-pro, sans-serif;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .added_about h2 {
     font-size: 18px;
   }
-}
+} */
 .added_about h3 {
   margin-top: 0;
   font-size: 13px;
@@ -244,8 +220,8 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   .added_about h3 {
     font-size: 10px;
   }
-}
+} */
