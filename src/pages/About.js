@@ -37,13 +37,13 @@ const About = () => {
             Uwielbiam patrzeć na to jak się kochacie, dowiadywać się co sprawia,
             że się uśmiechacie, a co, że się wzruszacie.{" "}
           </p>
-          {isSmall ? null : (
+          {isSmall ? (
             <section>
               {" "}
               <h2>Zapraszam przed obiektyw.</h2>
               <h3>Pokażcie mi swój wyjątkowy świat.</h3>
             </section>
-          )}
+          ) : null}
         </div>
         <aside>
           <img src={profile} alt="Ewelina Sadowska" />
