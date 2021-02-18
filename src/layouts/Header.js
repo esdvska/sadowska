@@ -12,9 +12,9 @@ import "../styles/Header.css";
 
 const Header = () => {
   const isMobile = useMediaQuery({
-    query: "(max-width:1000px",
+    query: "(min-width:1000px",
   });
-  const navigation = isMobile ? <NavButton /> : <NavDesktop />;
+  const navigation = isMobile ? <NavDesktop /> : <NavButton />;
   return (
     <div className="header">
       <NavLink to="/" exact>
