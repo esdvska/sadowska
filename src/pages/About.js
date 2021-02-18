@@ -6,7 +6,7 @@ import "../styles/About.css";
 import profile from "../images/ewelina_sadowska_fotograf.jpg";
 import ButtonInTouch from "../components/ButtonInTouch";
 const About = () => {
-  const isSmall = useMediaQuery({ query: "(max-width:800px" });
+  const isSmall = useMediaQuery({ query: "(min-width:800px" });
 
   return (
     <>
@@ -48,12 +48,12 @@ const About = () => {
         <aside>
           <img src={profile} alt="Ewelina Sadowska" />
         </aside>
-        {isSmall ? (
+        {isSmall ? null : (
           <div className="added_about">
             <h2>Zapraszam przed obiektyw.</h2>
             <h3>Pokażcie mi swój wyjątkowy świat.</h3>
           </div>
-        ) : null}
+        )}
       </div>
       <ButtonInTouch />
     </>
