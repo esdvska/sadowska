@@ -1,8 +1,13 @@
 .wrapper_faq {
   clear: both;
   margin: 0 auto;
-  max-width: 85vw;
+  max-width: 90vw;
   padding-top: 5%;
+}
+.wrapper_faq p {
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 17px;
 }
 .wrapper_faq h1 {
   color: rgb(75, 12, 15);

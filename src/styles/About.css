@@ -102,21 +102,15 @@
 }
 @media (max-width: 1280px) {
   .about p {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
 @media (max-width: 1024px) {
   .about p {
-    font-size: 15px;
     margin-bottom: 30px;
   }
 }
-/* @media (max-width: 414px) {
-  .about p {
-    font-size: 13px;
-  }
-} */
 
 /* SEKCJA IMG */
 .about aside {
